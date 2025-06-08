@@ -7,7 +7,7 @@ O objetivo deste projeto é fornecer aos usuários curiosidades interessantes so
 | :rocket: URL         | [https://curiosidades.co.ao](https://jeomenezes.github.io/projeto-android/)
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://)
+![](https://github.com/jeomenezes/projeto-android/blob/main/imagens/ilustra-site-android.png)
 
 Visite o site [aqui](https://jeomenezes.github.io/projeto-android/)) e explore as curiosidades sobre o Android.
 
