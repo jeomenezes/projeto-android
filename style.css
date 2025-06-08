@@ -203,7 +203,7 @@ aside > section{
 aside ul{
     list-style-position: inside;
     list-style-type: "\2713\0020\0020";
-    columns: 3;
+    columns: 2;
     padding: 8px;
     border: 4px dotted var(--color5);
     /*list-style-type: ¨\2713¨;*/
