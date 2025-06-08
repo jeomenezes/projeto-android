@@ -1,0 +1,237 @@
+/*Regras/Regras especiais*/
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: Android;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+/*Variavis css: cor e fontes*/
+:root{
+    --color1: #c5ebd6;
+    --color2: #83E1AD;
+    --color3: #3DDC84;
+    --color4: #2FA866;
+    --color5: #1A5C37;
+    --color6: #063d1e;
+    --font1: Arial, Helvetica, sans-serif;
+    --font2: "Bebas Neue", sans-serif;
+    --font3: 'Android', sans-serif;
+    --text_sombra:1px 1px 2px rgba(0, 0, 0, 0.771);
+    --box_sombra: 0px 3px 6px rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    
+}
+/*formatações globais*/
+*{
+    margin: 0px;
+}
+
+/*Estilos do body*/
+
+body{
+    background-color: var(--color1);
+    font-family: var(--font1);
+}
+
+/*Estilos do gerais de titulos e paragrafos*/
+
+h1{
+    font-family: var(--font2);
+}
+
+p{
+    text-align: justify; 
+    text-indent: 25px; 
+    line-height: 1.6em;
+    line-break: normal;
+    
+}
+
+/*Estilos do header, cabeçalho*/
+header{
+    background-image: linear-gradient(to bottom,var(--color4), var(--color6));
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 15px;
+    height: 100px; 
+}
+
+header h1{
+    text-align: center;
+    text-shadow: var(--text_sombra);
+}
+
+header p{
+    color: var(--color1);
+    text-align: center;
+    text-shadow: var(--text_sombra);
+    margin: 8px;
+
+}
+
+/*Estilos do nav e ancoras da nav*/
+
+nav{
+    background-color: var(--color6);
+    padding: 5px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+
+}
+nav a{
+    text-decoration: none;
+    color: var(--color2);
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+    transition: 0.8s ease;
+}
+
+nav a:hover{
+    background-color: var(--color5);
+    border-radius: 2px;
+}
+
+/*Estilos do main, zona de conteúdo principal*/
+
+main{
+    background-color: #ffffff;
+    padding: 10px;
+    min-width: 350px;
+    max-width: 800px;
+    margin: 0px auto 15px auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: var(--box_sombra);
+    overflow: hidden;
+}
+
+/*Estilos do article, artigo*/
+    /*====Estilos dos titulos e paragrafos do artigo*/
+.art_titulos{
+    font-family: var(--font3);
+    color: var(--color5);
+    padding: 4px;
+}
+
+article p{
+    padding: 8px 0px;
+}
+
+.lg_titulos{
+    background-image: linear-gradient(to right, var(--color2), var(--color1), #ffffff);
+}
+
+    /*====Estilos dos links do artigo*/
+a.link{
+    text-decoration: none;
+    color: var(--color4);
+    font-weight: 700;
+}
+a.link::after{
+    content: "🔗" ;
+}
+
+    /*====Estilos dos links com span do artigo*/
+span > a{
+    text-decoration: none;
+    color: var(--color4);
+    font-weight: 700;
+
+}
+
+    /*=====Estilos das imgs*/
+section.img{
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+
+}
+
+img#dan_droid{
+    width: 100%;
+}
+
+    /*====Estilos da secção de video*/
+section#i_video{
+    position: relative;
+    background-color: var(--color6);
+    margin: 15px -10px;
+    padding: 15px 0px 59% 15px;
+    
+}
+section#i_video iframe{
+
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 4.5%;
+
+}
+
+    /*====Estilos do aside, do extra*/
+aside{
+    box-shadow: var(--box_sombra);
+    border-radius: 10px;
+    background-color: var(--color1);
+    margin-bottom: 20px;
+}
+
+.h_aside{
+    background-color: var(--color4);
+    text-align: left;
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 15px;
+    width: inherit;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: var(--box_sombra);
+}
+
+aside h1{
+    font-family: var(--font1);
+
+}
+
+aside > section{
+    padding: 20px;
+}
+
+    /*====Estilos da lista não ordenada do aside/periferico*/
+
+aside ul{
+    list-style-position: inside;
+    list-style-type: "\2713\0020\0020";
+    columns: 3;
+    padding: 8px;
+    border: 4px dotted var(--color5);
+    /*list-style-type: ¨\2713¨;*/
+
+}
+
+/*li::before{
+    content: "\1F44D";
+}*/
+
+/*Estilos do footer, rodapé*/
+footer{
+    background-color: var(--color6);
+    color: #ffffff;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 50px;
+    text-shadow: var(--text_sombra);
+}
+
+footer > p{
+    text-align: center;
+}
+
+/*Estilos dos links do footer,rodapé*/
+.link_footer{
+    color: var(--color1);
+    font-weight: bolder;
+    text-shadow: var(--text_sombra);
+}
+
