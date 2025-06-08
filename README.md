@@ -4,8 +4,6 @@ O projeto Android, é um site que conta curiosidades sobre o sistema operacional
 
 O objetivo deste projeto é fornecer aos usuários curiosidades interessantes sobre o sistema operacional Android. O site é uma coleção de informações divertidas e surpreendentes sobre o Android, desde fatos históricos até recursos ocultos e curiosidades sobre as diferentes versões do sistema.
 
-| :rocket: URL         | [https://curiosidades.co.ao](https://jeomenezes.github.io/projeto-android/)
-
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://github.com/jeomenezes/projeto-android/blob/main/imagens/ilustra-site-android.png)
 
