@@ -99,12 +99,13 @@ nav a:hover{
 main{
     background-color: #ffffff;
     padding: 15px;
-    min-width: 300px;
+    min-width: auto;
     max-width: 800px;
     margin: 0px auto 15px auto;
     border-radius: 0px 0px 10px 10px;
     box-shadow: var(--box_sombra);
     overflow: hidden;
+    
 }
 
 /*Estilos do article, artigo*/
@@ -149,10 +150,6 @@ section.img{
 
 }
 
-picture.img-frame > source{
-    width: 100%;
-
-}
 
 img#dan_droid{
     width: 100%;
